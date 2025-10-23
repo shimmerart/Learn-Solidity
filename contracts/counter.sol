@@ -2,26 +2,23 @@
 pragma solidity ^0.8.3;
 contract Counter{
     uint public counter;
-    uint private count_pr
-    
-    constructor(){
-        counter = 0;
-    }
+    uint public constant Ten = 10; //定义常量
+    uint private counter_pr;
 
-    function count() public {
-        counter = counter + 1;
-    }
-
-    // function get() public view returns (uint) { 
-    //     return counter;
-    // }
-
-    function inc() public {
+    function increment() public {
         counter += 1;
+    }
+
+    function get() public view returns (uint) { 
+        return counter;
     }
 
     function setNumber(uint x) public {
         counter = x;
+    }
+
+    function setCounter() public {
+        counter = Ten;
     }
 }
 

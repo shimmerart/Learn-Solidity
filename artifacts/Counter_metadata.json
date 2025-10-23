@@ -7,14 +7,15 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "count",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "Ten",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -32,7 +33,34 @@
 			},
 			{
 				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "inc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setCounter",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -79,11 +107,11 @@
 	},
 	"sources": {
 		"contracts/counter.sol": {
-			"keccak256": "0x502c43e0ca61adde0e430eed29aebf71d7d5882f04df7755e41bed3e40b93326",
+			"keccak256": "0xc3e53c6a024539b317202db31b1337fa0891f3b0cc37be99d1e9660ac660e3f5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6698e6be23533b2820223075d86499e1c174be343a8cf6aae9039e019bc80c5b",
-				"dweb:/ipfs/QmZ51xJiLiEUAWf3i2rWJhU1a8PupLfAJ1Kk95K6p2eRBi"
+				"bzz-raw://acc12f6580557a05993f57d7ef6ab33d6efb16840a90a7e405dde30655fbba39",
+				"dweb:/ipfs/QmNcFzhjDq3qCSDc7Vf4kW5r2M64MDYaKcuUHpoWLwqzFM"
 			]
 		}
 	},
