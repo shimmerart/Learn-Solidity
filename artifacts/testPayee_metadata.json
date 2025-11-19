@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/testPayee.sol": "testPayee"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/testPayee.sol": {
+			"keccak256": "0x975ad06b5d71038f3842721c66437153f9f6b39b6bcdba070a34c3b4d099d039",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4e518df5ce9062785522d2baab2e42247f0b91996496a13f0d5a7247946ef923",
+				"dweb:/ipfs/QmWxFwrZT7eUtU4W6d8RpnniJjWcmcxCETgHHs7Z4UTyfQ"
+			]
+		}
+	},
+	"version": 1
+}

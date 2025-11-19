@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "x",
+						"type": "address"
+					}
+				],
+				"name": "testTrasfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/testAddr.sol": "testAddr"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/testAddr.sol": {
+			"keccak256": "0x0553a15db58e485e862fe6ed83ccf11412e26321645dbea8b1a78f569471952f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://41a522392a6f1d8f010490cc6d82815bfd4dd1a24c94e365d4e3b84c3e3fc2f7",
+				"dweb:/ipfs/QmUFkT2Z7ivosQMg6p74CafEXy4pDoJkcuwjSxYeNPcQwX"
+			]
+		}
+	},
+	"version": 1
+}
