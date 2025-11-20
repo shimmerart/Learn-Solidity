@@ -8,7 +8,7 @@ contract testAddr {
     // 如果合约的余额大于等于10，则给x转10 ether
     function testTrasfer(address payable x) public {
         address myAddress = address(this);
-        if (x.balance > 10 && myAddress.balance >= 10 ) {
+        if (x.balance < 10 && myAddress.balance >= 10 ) {
             x.transfer(0.1 ether);
         }
     }

@@ -6,9 +6,17 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "payable",
-				"type": "constructor"
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_am",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			},
 			{
 				"inputs": [],
@@ -24,17 +32,8 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "x",
-						"type": "address"
-					}
-				],
-				"name": "testTrasfer",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -50,7 +49,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/testAddr.sol": "testAddr"
+			"contracts/testBank.sol": "Bank"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -64,12 +63,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/testAddr.sol": {
-			"keccak256": "0xc9799377fc2489c2c8a67f68b0b31522f0b31be2276fe4c11d3bab7dba35452b",
+		"contracts/testBank.sol": {
+			"keccak256": "0x2a7de6c668cbe7dc0f8c8857ef4707aefbf7d9efd37eb1ebae8e474476ceb9a1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fbeffa9ffb2bbe7cefe784e440b97ae4d106d1f4161e2a8d52717011912fe5a5",
-				"dweb:/ipfs/QmW4Nfs3gL7uvMxxMAxU6BFvdiqV3bmqSsPwTG53Hz9Mm7"
+				"bzz-raw://6c8fe4e65714052ab0cd1ea59c412cefc1c27c6e5f64419867eac75de1e17d61",
+				"dweb:/ipfs/QmSEkQSmo75W7y9CxxR2QqRcNTevB7N1kUpssaVQb9VHrS"
 			]
 		}
 	},

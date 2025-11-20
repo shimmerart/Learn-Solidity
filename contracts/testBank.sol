@@ -1,12 +1,17 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.3;
 contract Bank{
-    uint public amount;
-    function add(uint _am) public {
-        amount = amount + _am;
+    struct Funder {
+        address addr;
+        uint amount;
     }
-    function get() public {
+    mapping (uint=>Funder) funders;
+    receive() external payable { }
+    function add(uint _am) public {
         
+    }
+    function getBalance() public view returns(uint){
+        return address(this).balance;
     }
 
 }
